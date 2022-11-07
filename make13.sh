@@ -36,5 +36,4 @@ ln -s  /apex/com.android.vndk.v32/lib64 $systempath/lib64/vndk-sp-32
 7z x -y $thispath/13/com.android.vndk.v31.apex.7z -o$systempath/apex/ 2>/dev/null >> $systempath/zip.log
 7z x -y $thispath/13/com.android.vndk.v29.apex.7z -o$systempath/apex/ 2>/dev/null >> $systempath/zip.log
 7z x -y $thispath/13/com.android.vndk.v30.apex.7z -o$systempath/apex/ 2>/dev/null >> $systempath/zip.log
-7z x -y $thispath/13/*.7z -o$systempath/apex/ 2>/dev/null >> $systempath/zip.log
 rm -rf $systempath/zip.log
